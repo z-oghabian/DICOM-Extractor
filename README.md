@@ -1,19 +1,45 @@
-DICOM-Extractor
+# DICOM-Extractor
 
-A tool for extracting and organizing DICOM files into structured patient and series-based folders.
-Features:
+**DICOM-Extractor** is a tool designed to simplify the process of extracting and organizing DICOM files into structured patient and series-based folders. Many MRI scanners produce unsorted or ambiguously labeled DICOM files, making it challenging to identify and organize series. While software like RadiAnt or DicomWorks can help, the process is often time-consuming. This tool aims to streamline that workflow.
 
-✅ Extracts and sorts DICOM files by patient and series
-✅ Automatically renames files in sequential order (Img00001, Img00002, etc.)
-✅ Graphical User Interface (GUI) for easy usage—no coding required
-✅ Detects and prevents processing if disk space is insufficient
-✅ Displays a progress bar and completion message
+Let us know if you find it useful!
 
+---
 
-***If using the .exe file, just run it.
+## Features
 
-***If using the .py file (beside phyton):
+- ✅ **Extracts and sorts DICOM files** by patient and series.
+- ✅ **Automatically renames files** in sequential order (e.g., `Img00001`, `Img00002`, etc.).
+- ✅ **Graphical User Interface (GUI)** for ease of use—no coding required.
+- ✅ **Disk space check** to prevent processing if storage is insufficient.
+- ✅ **Progress bar and completion message** to monitor the process.
+
+---
+
+## How to Use
+
+### Using the `.exe` File
+1. Download the `.exe` file from the [Releases](#) section.
+2. Run the file—no additional setup is required.
+
+### Using the `.py` File
+1. Ensure Python is installed on your system.
+2. Install the required library:
+   ```bash
    pip install pydicom
+   ```
+3. Run the `.py` file in your Python environment.
 
+---
 
-"Some parts of the code were assisted by ChatGPT, an AI language model from OpenAI." 
+## Notes
+
+- Portions of this code were developed with assistance from ChatGPT, an AI language model by OpenAI.
+- Stay tuned for upcoming releases with new features and improvements!
+
+---
+
+## About
+
+This tool was developed by **NIAG (Neuroimaging Analysis Group)** and **ADIR (Advanced Diagnostic and Interventional Radiology) Research Centers**.
+
